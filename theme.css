@@ -1,4 +1,4 @@
-/* Professional palette: navy, cobalt, teal, and warm coral. */
+/* Portfolio layout with a vivid, coordinated color palette. */
 :root {
   --paper: #fbfcff;
   --ink: #182d48;
@@ -167,3 +167,95 @@ h2 em { font-size: 1em; }
   .hero-actions>.text-link { padding-inline: 9px; }
   .hero-note { letter-spacing: .5px; }
 }
+
+/* Color direction: violet, raspberry, turquoise, and sunshine. */
+:root { --paper: #fffdfc; --ink: #292342; --muted: #625974; --green: #7139c6; --line: #e8dff0; --orange: #bc2864; }
+::selection { background: #f8c8df; color: #43215f; }
+.header { background: #fff9fd; border-bottom-color: #ead8ef; }
+.wordmark { color: #632caf; }
+.wordmark span { color: #e94787; }
+.nav-contact { background: #783bc4; border-color: #783bc4; }
+.nav-contact:hover { background: #a62c83; }
+.hero::before { background: radial-gradient(ellipse at 87% 15%, #ffc6d9 0, transparent 54%), radial-gradient(ellipse at 2% 93%, #b7eee6 0, transparent 48%), linear-gradient(115deg, #f3e7ff, #ffe4e4 70%, #fff1c9); }
+.hero .eyebrow { color: #61289b; background: #ffffffac; border-color: #d3afe9; }
+.dot { background: #08796e; }
+h1, .hero h1 { color: #542587; }
+.hero-greeting { color: #665173; }
+.accent { color: #d92e72; }
+em { color: #a72a80; }
+.hero-statement em { color: #08786f; }
+.eyebrow { color: #7d388d; }
+.intro, .hero-note { color: #5c496a; }
+.button { background: linear-gradient(110deg, #7932c7, #b52d87); box-shadow: 0 7px 20px #a8379633; }
+.button:hover { background: linear-gradient(110deg, #6125a5, #962171); }
+.text-link { color: #71349f; border-color: #cda9df; }
+.hero-actions>.text-link { background: #fff8ffba; border-color: #cfacd9; }
+.portrait-composition::before { background: #f9b655; border: 0; }
+.portrait-frame { border: 5px solid #fff7ed; box-shadow: 0 18px 40px #842b7a28; }
+.portrait-caption { color: #752f6d; }
+.portrait-badge { background: linear-gradient(115deg, #7133ae, #a03288); box-shadow: 0 12px 26px #68248930; }
+.portrait-badge .badge-label { color: #f2d6ff; }
+.portrait-badge .badge-mark { color: #ffce69; }
+.interest-strip { background: linear-gradient(100deg, #7334bb, #b52f89 60%, #d94570); color: #fff; }
+.interest-strip span { color: #ffdf76; }
+.about-facts>div { background: #efe0ff; border-color: #d8bcf4; }
+.about-facts strong { color: #7034a9; }
+.about-facts>div:nth-child(2) { background: #c9f0e6; border-color: #99dacb; }
+.about-facts>div:nth-child(2) strong { color: #126c5c; }
+.research-section { background: linear-gradient(135deg, #ece1ff, #f9dff0); border-block-color: #e0c8ed; }
+.research-item { background: #fffaff; border-color: #dfc5ef; border-left: 5px solid #8d43c8; box-shadow: 0 7px 22px #7630a30a; }
+.research-item:last-child { background: #f5fffc; border-color: #b5e0d5; border-left-color: #0b9883; }
+.research-item h3 { color: #4e2a69; }
+.research-item:last-child h3 { color: #205c54; }
+.tag { background: #ead5ff; color: #642b95; border-color: #d5b3ed; }
+.research-item:last-child .tag { background: #c7f0e4; border-color: #95d8c5; color: #176556; }
+.research-number { color: #c395e5; }
+.research-item:last-child .research-number { color: #75c8b4; }
+.tags span { color: #69408d; background: #efe1fc; border-color: #ddc7ee; }
+.research-item:last-child .tags span { color: #216a59; background: #d9f4e9; border-color: #b6e2d1; }
+.project { border-color: #e2cdea; box-shadow: 0 6px 18px #67237909; }
+.project h3 { color: #65338b; }
+.art-elder { background: linear-gradient(135deg, #53d5bd, #a1ebc5 65%, #e7efa0); }
+.art-jobs { background: linear-gradient(130deg, #b395ef, #e6a4d9 60%, #fbc7b9); }
+.project.featured .project-content { background: #eefff7; }
+.project:nth-child(2) .project-content { background: #fcf0fc; }
+.project.featured .tags span { background: #d4f4e6; border-color: #afe0cd; color: #28664e; }
+.mock-window { background: #f9fff9; border-color: #48b59c; }
+.mock-tiles>span { background: #c8efde; }
+.mock-brand, .mock-title { color: #20624c; }
+.phone { border-color: #684895; }
+.phone-notch { background: #684895; }
+.job-line b { background: #ead8fb; color: #7945ac; }
+.art-label { background: #ffffffd9; color: #514068; }
+.project.compact:nth-child(3) { background: #fff4d7; border-color: #efdb9e; border-top-color: #eba934; }
+.project.compact:nth-child(4) { background: #ffe8ed; border-color: #f3c5d1; border-top-color: #df5288; }
+.project-icon { background: #ffe3a0; color: #8d5806; }
+.project.compact:nth-child(4) .project-icon { background: #fac5da; color: #9d2e66; }
+.project.compact:nth-child(3) .tags span { background: #ffebba; color: #79591c; border-color: #efd294; }
+.project.compact:nth-child(4) .tags span { background: #ffd5e3; color: #8d315b; border-color: #efb3cb; }
+.journey-section { background: linear-gradient(125deg, #ffebbf, #ffe0d1 55%, #fbdce9); border-color: #f1d9c2; }
+.journey-section .eyebrow { color: #9b4661; }
+.journey-grid>div { background: #fffdf6; border-color: #ead5ba; border-top: 4px solid #e5a139; }
+.journey-grid>div:nth-child(2) { background: #fff8fb; border-color: #ecc5d6; border-top-color: #d64f89; }
+.column-label { color: #76416d; border-color: #ead5df; }
+.timeline-item { border-color: #eacfa3; }
+.timeline-item:before { background: #c38a25; box-shadow: 0 0 0 4px #fff0cd; }
+.timeline-date { color: #866024; }
+.detail { background: #e2f4d5; color: #45652c; }
+.award>span, .award b { color: #ab356d; }
+.more-details { background: #f8e3ef; }
+.skill-groups>div { background: #e8d9fc; border-color: #d5b9f0; border-left-color: #8844c7; }
+.skill-groups>div:nth-child(2) { background: #d0f3e9; border-color: #a5dece; border-left-color: #0e927a; }
+.skill-groups>div:last-child { background: #ffe6b9; border-color: #ecd19a; border-left-color: #ce8d1d; }
+.skill-groups h3 { color: #543467; }
+.skill-groups span { color: #816d91; }
+.contact-section { background: radial-gradient(ellipse at 100% 100%, #bd387b 0, transparent 65%), linear-gradient(120deg, #482280, #7935a5); border-top: 5px solid #f4b847; }
+.contact-inner .eyebrow { color: #eedbfa; }
+.contact-inner .dot { background: #80e6c6; }
+.contact-inner h2 em { color: #ffd17c; }
+.contact-inner>p:not(.eyebrow) { color: #efddf5; }
+.email-link { border-color: #d7a8e4; }
+.social-links a { border-color: #ba8ccc; background: #ffffff0b; }
+.social-links a:hover { border-color: #ffdc8e; background: #ffffff1c; }
+.footer { background: #fffdfc; }
+@media(max-width:720px) { nav { background: #fff9fd; } }
