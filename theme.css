@@ -259,3 +259,9 @@ em { color: #a72a80; }
 .social-links a:hover { border-color: #ffdc8e; background: #ffffff1c; }
 .footer { background: #fffdfc; }
 @media(max-width:720px) { nav { background: #fff9fd; } }
+.current-research { display:flex; align-items:center; gap:12px; width:max-content; max-width:100%; margin-top:24px; padding:11px 15px; border:1px solid #d6a2da; border-radius:8px; background:#fffafd; box-shadow:0 4px 12px #74329b14; color:#5b2a7b; font-size:12px; line-height:1.4; transition:transform .2s, box-shadow .2s; }
+.current-research:hover { transform:translateY(-2px); box-shadow:0 7px 18px #74329b24; }
+.current-research span:first-child { font-size:9px; font-weight:700; letter-spacing:1px; color:#ad418a; }
+.current-research strong { font-size:13px; font-weight:700; }
+.current-research span:last-child { font-size:18px; color:#a22c85; }
+@media(max-width:720px) { .current-research { flex-wrap:wrap; gap:6px 10px; margin-top:20px; } .current-research span:first-child { width:100%; } }
