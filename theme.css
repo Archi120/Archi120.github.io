@@ -264,4 +264,4 @@ em { color: #a72a80; }
 .current-research span:first-child { font-size:9px; font-weight:700; letter-spacing:1px; color:#ad418a; }
 .current-research strong { font-size:13px; font-weight:700; }
 .current-research span:last-child { font-size:18px; color:#a22c85; }
-@media(max-width:720px) { .current-research { flex-wrap:wrap; gap:6px 10px; margin-top:20px; } .current-research span:first-child { width:100%; } }
+@media(max-width:720px) { .hero { grid-template-columns:minmax(0,1fr); } .hero-copy,.portrait-composition { min-width:0; } .current-research { width:100%; flex-wrap:wrap; gap:6px 10px; margin-top:20px; } .current-research span:first-child { width:100%; } }
