@@ -13,9 +13,7 @@ img { display:block; max-width:100%; }
 .skip-link { position:fixed; left:20px; top:-80px; z-index:20; padding:8px 13px; background:var(--ink); color:#fff; }
 .skip-link:focus { top:12px; }
 
-.header { width:min(850px,calc(100% - 48px)); height:60px; margin:auto; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--line); }
-.wordmark { font:700 18px/1 'Manrope',sans-serif; letter-spacing:-.45px; }
-.wordmark span { color:var(--accent); }
+.header { width:min(850px,calc(100% - 48px)); height:60px; margin:auto; display:flex; align-items:center; justify-content:flex-end; border-bottom:1px solid var(--line); }
 nav { display:flex; align-items:center; gap:20px; font-size:14px; font-weight:600; color:var(--muted); }
 nav a:hover, .hero-links a:hover, .footer a:hover, .text-link:hover { color:var(--accent); }
 .nav-contact { padding:6px 11px; border:1px solid #c9a8b6; border-radius:4px; color:var(--accent); }
